@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Retry",
+    "api": "/records/status/retry",
+    "id" : 1
+  },
+  {
+    "name": "Archive",
+    "api": "/records/status/active",
+    "id" : 12
+  },
+  {
+    "name": "Activate",
+    "api": "/records/status/active",
+    "id" : 13
+  },
+  {
+    "name": "Run Report",
+    "api": "/records/report",
+    "id" : 14
+  }
+]

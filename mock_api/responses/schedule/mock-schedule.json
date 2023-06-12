@@ -1,0 +1,8 @@
+{
+  "name": "Daily 14:00 hrs",
+  "runSchedule": {
+    "days": ["*"],
+    "times": ["14"]
+  }, 
+  "tasksThatUseThis": ["task0"]
+}

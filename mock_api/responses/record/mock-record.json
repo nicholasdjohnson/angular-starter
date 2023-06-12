@@ -1,0 +1,24 @@
+{
+  "source": "PowerSchool",
+  "target": "D2L",
+  "message": "json message payload",
+  "retryCount": 2,
+  "callbackUrl": "https://quarantine-callback/ps/5123",
+  "created": "2023-04-02 12:23:12",
+  "updated": "2023-04-03 16:47:35",
+  "metadata": {
+    "client": "TIBCO",
+    "process": "Student Enrollment",
+    "relatedEntity": "abc123"
+  },
+  "relatedEntities": [
+    {
+      "id": "abc123",
+      "name": "student"
+    },
+    {
+      "id": "abc4123",
+      "name": "classroom"
+    }
+  ]
+}

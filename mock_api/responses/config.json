@@ -1,0 +1,5 @@
+{
+  "recordsUrl": "/records",
+  "clientsUrl": "/clients",
+  "entitiesUrl": "/entities"
+}

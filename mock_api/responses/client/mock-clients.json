@@ -1,0 +1,16 @@
+[
+  {
+    "name": "TIBCO PS",
+    "description": "TIBCO integration PS with stride",
+    "active": true,
+    "creation_date": "2023-04-02 12:23:12",
+    "updated_date": "2023-04-03 16:47:35"
+  },
+  {
+    "name": "ROCO",
+    "description": "Roster common",
+    "active": true,
+    "creation_date": "2022-12-02 06:54:52",
+    "updated_date": "2022-12-03 14:42:09"
+  } 
+]

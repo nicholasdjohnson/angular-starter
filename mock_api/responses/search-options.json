@@ -1,0 +1,87 @@
+{
+  "attributes": [
+    {
+      "name": "source",
+      "type": "string",
+      "operatorType": "string"
+    },
+    {
+      "name": "status",
+      "type": "enum",
+      "values": [
+        "active",
+        "archived"
+      ]
+    },
+    {
+      "name": "target",
+      "type": "string",
+      "operatorType": "string"
+    },
+    {
+      "name": "client",
+      "type": "string",
+      "operatorType": "string"
+    },
+    {
+      "name": "payload",
+      "type": "string",
+      "operatorType": "string"
+    },
+    {
+      "name": "retryCount",
+      "type": "string",
+      "operatorType": "number"
+    },
+    {
+      "name": "created",
+      "type": "date",
+      "operatorType": "number"
+    },
+    {
+      "name": "updated",
+      "valueType": "date",
+      "operatorType": "number"
+    },
+    {
+      "name": "metadata",
+      "valueType": "string",
+      "operatorType": "string",
+      "children": [
+        "key",
+        "value"
+      ]
+    },
+    {
+      "name": "missingEntities",
+      "valueType": "string",
+      "type": "parent",
+      "children": [
+        "id",
+        "entity",
+        "system"
+      ],
+      "operatorType": "string"
+    }
+  ],
+  "operators": [
+    {
+      "type": "string",
+      "options": [
+        "equals",
+        "not equals",
+        "like",
+        "not like"
+      ]
+    },
+    {
+      "type": "number",
+      "options": [
+        "equals",
+        "not equals",
+        "greater than",
+        "less than"
+      ]
+    }
+  ]
+}
